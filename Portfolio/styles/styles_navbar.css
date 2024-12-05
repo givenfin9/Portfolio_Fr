@@ -5,13 +5,14 @@ footer{
   width: 100%;
   color: white;
   text-align: center;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(64, 113, 69);
 }
 .navbar{
     overflow: hidden;
     background-color: rgb(38, 46, 134);
     position: fixed;
     top: 0;
+    width: 100%;
 }
 /* Style the links inside the navigation bar */
 .navbar a {
@@ -36,16 +37,25 @@ footer{
     color: rgb(255, 255, 255);
   }
   .column {
-   flex: 50%;
-   text-align:center;
-   color: #ffffff;
-   align-items: center;
-   display: grid;
-   height: 100%;
-   
-   
-   
-   
-  }
+    flex: 50%;
+    text-align:center;
+    color: #ffffff;
+    align-items: center;
+    display: grid;
+    line-height: 200px; /* Vertikální střed podle výšky */
+    height: 900px; /* Nastavte výšku */
+    border: 1px solid #000000;
+   }
 
+   .section{
+    height: 100vh;
+    background-color: #275e86;
+    display: grid;
+    line-height: 200px; /* Vertikální střed podle výšky */
+    border: 1px solid #000000;
+    text-align: center;
+   }
+   html {
+    scroll-behavior: smooth;
+   }
   
